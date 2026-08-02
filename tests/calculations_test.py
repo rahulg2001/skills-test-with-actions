@@ -74,7 +74,7 @@ def test_area_of_circle_negative_radius():
     # Arrange
     radius = -1
     # Act & Assert
-    with pytest.raises(ValueError);
+    with pytest.raises(ValueError):
     area_of_circle(radius)
     
 
